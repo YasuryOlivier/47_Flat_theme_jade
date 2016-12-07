@@ -1,0 +1,117 @@
+doctype html5
+html(lang="en")
+	head
+		title Home | Flat Theme
+		meta(charset="utf-8")
+		meta(name="viewport",content="width=device-width,initial-scale=1.0")
+		meta(name="author" content="")
+		link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+		link(rel="stylesheet" type="text/css" href="css/materialize.min.css")
+		link(rel="stylesheet" type="text/css" href="css/main.css" media="screen,projection")
+		link(rel="shortcut icon" href="images/ico/favicon.ico")
+		link(rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png")
+	body
+		header
+			include header.jade
+		section
+			.green.accent-4s
+				.row
+					.col.s6.col.m10
+						h1 Blog
+						p Pallentesque habitant morbi tristique
+					.col.s6.col.m2
+						p Home/Services
+		section
+			.container
+				.row
+					.col.m8
+						img.responsive-img(src="images/blog/blog1.jpg")
+						p Duis sed odio nibh vulputate cursus
+							.row
+								.col.m3
+									p John
+								.col.m3
+									p Bootstrap
+								.col.m3
+									p Sept 16th 2012
+								.col.m3
+									p 3 Comments
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque repellat, deleniti quisquam aut accusantium debitis eligendi, ratione sequi, beatae quae est sit accusamus itaque ducimus doloribus tempore blanditiis illum architecto
+						button.btn Read More
+						ul.pagination
+							li.disabled
+								a(href="#!")
+									i.material-icons chevron_left
+							li.active
+								a(href="#!") 1
+							li.waves-effect
+								a(href="#!") 2
+							li.waves-effect
+								a(href="#!") 3
+							li.waves-effect
+								a(href="#!") 4
+							li.waves-effect
+								a(href="#!") 5
+							li.disabled
+								a(href="#!")
+									i.material-icons chevron_right
+					.col.m4
+						.row
+							.col.m12
+								form
+									.input-field
+										input
+										label Email
+						.row
+							.col.m6
+								img.responsive-img(src="images/ads/ad1.png")
+							.col.m6
+								img.responsive-img(src="images/ads/ad2.png")
+						.row
+							.col.m6
+								img.responsive-img(src="images/ads/ad3.png")
+							.col.m6
+								img.responsive-img(src="images/ads/ad4.png")
+						.row
+							.col.m12
+								p Blog Categories
+						.row
+							.col.m6
+								p >Development
+								p >Desing
+								p >Updates
+								p >Tutorial
+								p >News
+							.col.m6
+								p >Joornal
+								p >Wordpress
+								p >Drupal
+								p >Magento
+								p >Bootstrap
+						.row
+							.col.m12
+								p Tag Cloud
+								button.btn CSS3
+								button.btn HTML5
+								button.btn WordPress
+								button.btn Joornal
+								button.btn Drupal
+								button.btn Bootstrap
+								button.btn jQuery
+								button.btn Tutorial
+								button.btn Update
+						.row
+							.col.m12
+								p Facebook Fanpage
+
+
+		footer
+			include footer.jade
+
+script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
+script(type="text/javascript" src="js/materialize.min.js")      
+script(type="text/javascript" src="js/main.js")
+script(src="js/main.js")

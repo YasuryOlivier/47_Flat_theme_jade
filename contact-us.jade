@@ -1,0 +1,55 @@
+doctype html5
+html(lang="en")
+	head
+		title Home | Flat Theme
+		meta(charset="utf-8")
+		meta(name="viewport",content="width=device-width,initial-scale=1.0")
+		meta(name="author" content="")
+		link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+		link(rel="stylesheet" type="text/css" href="css/materialize.min.css")
+		link(rel="stylesheet" type="text/css" href="css/main.css" media="screen,projection")
+		link(rel="shortcut icon" href="images/ico/favicon.ico")
+		link(rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png")
+	body
+		header
+			include header.jade
+		section
+			.green.accent-4s
+				.row
+					.col.s6.col.m10
+						h1 Contact Us
+						p Pallentesque habitant morbi tristique
+					.col.s6.col.m2
+						p Home/Contact Us
+		section
+			.container
+				.row
+					.col.m4
+						h5 Contact Form
+						form
+							input.input-field
+							label Firts Name
+						form
+							input.input-field
+							label Last Name
+						form
+							input.input-field
+							label Email
+						button.btn Send Message
+					.col.m4
+						form
+							textarea
+					.col.m4
+						center
+							h5 Our Location
+							iframe(src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15051.877568980979!2d-99.17330444999999!3d19.41137284!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1481057312365" frameborder="0")
+		footer
+			include footer.jade
+
+script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
+script(type="text/javascript" src="js/materialize.min.js")      
+script(type="text/javascript" src="js/main.js")
+script(src="js/main.js")

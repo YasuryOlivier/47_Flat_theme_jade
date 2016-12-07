@@ -1,0 +1,64 @@
+doctype html5
+html(lang="en")
+	head
+		title Home | Flat Theme
+		meta(charset="utf-8")
+		meta(name="viewport",content="width=device-width,initial-scale=1.0")
+		meta(name="author" content="")
+		link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+		link(rel="stylesheet" type="text/css" href="css/materialize.min.css")
+		link(rel="stylesheet" type="text/css" href="css/main.css" media="screen,projection")
+		link(rel="shortcut icon" href="images/ico/favicon.ico")
+		link(rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png")
+		link(rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png")
+	body
+		header
+			include header.jade
+		section
+			.green.accent-4s
+				.row
+					.col.s10
+						h1 Portafolio
+						p Pallentesque habitant morbi tristique
+					.col.s2
+						p Home/Portafolio
+		section
+			.grey.lighten-1
+				.container
+					.row
+						.col.s4.col.m4
+							.card
+								img.responsive-img.img-portafolio.img-a(src="images/portfolio/full/item1.jpg")
+								p Lorem ipsum dolor sit amet
+						.col.s4.col.m4
+							.card
+								img.responsive-img.img-portafolio.img-a(src="images/portfolio/full/item2.jpg")
+								p Lorem ipsum dolor sit amet
+						.col.s4.col.m4
+							.card
+								img.responsive-img.img-portafolio.img-a(src="images/portfolio/full/item3.jpg")
+								p Lorem ipsum dolor sit amet
+					.row
+						.col.s4.col.m4
+							.card
+								img.responsive-img.img-portafolio.img-a(src="images/portfolio/full/item4.jpg")
+								p Lorem ipsum dolor sit amet
+						.col.s4.col.m4
+							.card
+								img.responsive-img.img-portafolio.img-a(src="images/portfolio/full/item5.jpg")
+								p Lorem ipsum dolor sit amet
+						.col.s4.col.m4
+							.card
+								img.responsive-img.img-portafolio.img-a(src="images/portfolio/full/item6.jpg")
+								p Lorem ipsum dolor sit amet
+				
+
+		footer
+			include footer.jade
+
+script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
+script(type="text/javascript" src="js/materialize.min.js")      
+script(type="text/javascript" src="js/main.js")
+script(src="js/main.js")
